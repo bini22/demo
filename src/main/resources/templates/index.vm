@@ -1,10 +1,32 @@
+<xsl:templet match="/">
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Bini's Project</title>
+    <style type="text/css">
+    h1:showgreen { color:green;
+    font-size:14pt;}
+        h2:showyellow {color:yellow;}
+        h3:showred{color:red;}
+        h4:showblack{color:black;}
+        .start{font-family: fantasy;
+        color:deepskyblue;font-size: medium;}
+    </style>
 </head>
 <body>
-welcome
+<h1 class-"showgreen">Welcome to your Imagination</h1>
+<img src="11846595_941704129208493_2584362069832711135_n.jpg" alt="head" width="104" height="142">
+<h2 class-"showyellow">Where all your Dreams Come Alive.</h2>
+<p>havent you ever wondered what it would be like to catch your dream? to live your fantesy?</p>
+<h3 class-"showred">And Your Wishs True</h3>
+<h4 class-"showblack">click here if you want to start</h4>
+<p>click on start<br/>A window will open</p>
+<xsl:for-each select="//start">
+    <xsl:apply-templates select="name"/>
+    <xsl:apply-templates select="category"/>
+    <xsl:apply-templates select="dreams"/>
+</xsl:for-each>
 </body>
 </html>
+</xsl:templet>

@@ -14,7 +14,7 @@ public class PortalController {
         return "index";
     }
 
-    @RequestMapping("/welcome")
+    @RequestMapping("/Bini's Project")
     public String welcome() {
         return "index";
     }
