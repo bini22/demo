@@ -6,17 +6,17 @@
     <title>Bini's Project</title>
     <style type="text/css">
     h1:showgreen { color:green;
-    font-size:14pt;}
+    font-size:"14pt";}
         h2:showyellow {color:yellow;}
         h3:showred{color:red;}
         h4:showblack{color:black;}
-        .start{font-family: fantasy;
+        start{font-family: fantasy;
         color:deepskyblue;font-size: medium;}
     </style>
 </head>
 <body>
 <h1>Welcome to your Imagination</h1>
-<img src="11846595_941704129208493_2584362069832711135_n.jpg" alt="head" width="104" height="142">
+<img src="11846595_941704129208493_2584362069832711135_n.jpg" alt="head" width="104" height="142"/>
 <h2>Where all your Dreams Come Alive.</h2>
 <h3>And Your Wishs True</h3>
 <p>havent you ever wondered what it would be like to catch your dream? to live your fantesy?</p>
