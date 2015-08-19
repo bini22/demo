@@ -15,13 +15,12 @@
     </style>
 </head>
 <body>
-<h1 class-"showgreen">Welcome to your Imagination</h1>
+<h1>Welcome to your Imagination</h1>
 <img src="11846595_941704129208493_2584362069832711135_n.jpg" alt="head" width="104" height="142">
-<h2 class-"showyellow">Where all your Dreams Come Alive.</h2>
+<h2>Where all your Dreams Come Alive.</h2>
+<h3>And Your Wishs True</h3>
 <p>havent you ever wondered what it would be like to catch your dream? to live your fantesy?</p>
-<h3 class-"showred">And Your Wishs True</h3>
-<h4 class-"showblack">click here if you want to start</h4>
-<p>click on start<br/>A window will open</p>
+<h4>click here if you want to start</h4>
 <xsl:for-each select="//start">
     <xsl:apply-templates select="name"/>
     <xsl:apply-templates select="category"/>
